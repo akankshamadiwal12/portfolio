@@ -1,0 +1,105 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/726/726056.png">
+</head>
+<body>
+    <nav class="navbar">
+        <div><a href="#My POrtfolio">My Portfolio</a></div>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="Home">
+        <img src="./akya.jpg" alt="">
+        <div class="main">
+            <h1 class="heading">I Am <br>AKANKSHA MADIWAL</h1>
+            <div class="home_contact">
+                <h4><i class="fa-solid fa-envelope"></i>Email: <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"> akanksha23@navgurukul.org</a></h4>
+                <h4><i class="fa-brands fa-linkedin"></i>Linkdin:<a href="https://www.linkedin.com/in/akanksha-madiwal-bab0a3328/"> Akanksha_Madiwal</a></h4>
+                <button class="button">Hire Me</button>
+            </div>
+        </div>
+    </section>
+   
+    <section id="about">
+        <div class="About">
+            <div class="about_me">
+                <h2>About <span>Me</span></h2>
+            </div>
+                <img src="./akkiiiii.jpg" alt="">
+            <div class="about_text">  
+                <h4>Fronted Devloper</h4>
+                <div class="hello">Hello!!</div>
+                <p>I am <span>Akanksha</span></p>
+                <div class="text">A front-end developer. I specialize in creating beautiful
+                    and responsive websites using HTML and CSS to 
+                    bring designs to life.   
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="project">
+        <div class="Project"><h2>Projects</h2></div>
+        <div class="portfolio_project">
+            <div class="youtube">
+                <img src="Youtube.png" alt="">
+                <h3>Project 1</h3>
+                <div class="yt_text">
+                    <p>A free video sharing website that makes it easy to watch online videos.</p>
+                </div>
+                <button class="ytbutton"><a href="https://www.youtube.com/">View project</a></button>
+            </div>
+
+            <div class="linkdin">
+                <img src="Linkdin.png" alt="">
+                <h3>Project 2</h3>
+                <div class="Ld_text">
+                    <p>Professional networking, job searching, and career development.</p>
+                </div>
+                <button class="Ldbutton"><a href="https://www.linkedin.com/feed/">View Project</a></button>
+            </div>
+
+            <div class="google">
+                <img src="Google.png" alt="">
+                <h3>Project 3</h3>
+                <div class="G_text">
+                    <p>a free photo and video sharing app available on iPhone and Android</p>
+                </div>
+                <button class="Gbutton"><a href="https://www.instagram.com/">View Project</a></button>
+            </div>
+        </div>    
+    </section>
+
+    <section id="Contact">
+        <div class="contact-container">
+            <div class="contact_me"><h2>Contact</h2></div>
+            <div class="contact-form">
+                <h2>Contact Form</h2>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

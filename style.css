@@ -1,0 +1,688 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    
+ }
+ body{
+     background-color:rgb(250, 249, 247);
+ }
+ 
+ 
+ .navbar{
+     display: flex;
+     justify-content:flex-end;  
+     align-items:flex-end;
+     background-color: navy;
+     position: sticky;
+     top: 0; 
+ }
+ .navbar div{
+     height: 10px;
+     border: 1px rgb(158, 31, 31);
+     color: white;
+     font-family: century;
+     font-weight: bold;
+     margin: 20px 0px;
+     margin-right: 49%;
+     font-size: 30px;
+     margin-bottom: 40px;
+ }
+ .navbar div a:hover{
+     color: white;
+     
+ }
+ .navbar div a{
+     text-decoration: none;
+     color: white;
+     transition: all .5s ease;
+     cursor: auto;
+ }
+ .navbar ul{
+     display: flex;
+     list-style: none;
+     margin: 20px 0px;
+ }
+ .navbar ul li{
+     font-family: century;
+     font-size: 1.1rem;
+     font-weight: bold;
+ }
+ .navbar ul li a{
+     cursor: pointer;
+     text-decoration: none;
+     color: white;
+     padding: 8px 25px;
+     transition: all .5s ease;/
+ }
+ .navbar ul li a:hover{
+     color: rgb(232, 219, 255);
+ }
+ 
+
+ #Home{
+     display: flex;
+     flex-direction: column;  
+     background-color: rgb(242, 242, 249);
+     height: 500px;
+     justify-content: center;
+     align-items: center;
+     color: white;
+ }
+ #Home::before{
+     content: "";
+     position: absolute;
+     top: 0;
+     right: 0; 
+     height: 900px;
+     width: 100%;
+     z-index: -1;
+ }
+ #Home img{
+     margin-right: 500px;
+     margin-top: 120px;
+     width: 310px;
+     height: 310px;
+     border-radius: 70%;
+     background-color: rgb(211, 206, 206);
+ }
+ #Home img:hover{
+     cursor: pointer;
+     box-shadow: 0 3px 20px grey; 
+ }
+ .main{
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 25%;
+     right: 10%;
+     height: 500px;
+     width: 80%;
+     margin-left: 80px;
+ }
+ .heading{
+     color: black;
+     font-size: 48px;
+     margin-top: -219px;
+     margin-left: 450px;
+ }
+ .heading:hover{
+     cursor: auto;
+     color: rgb(8, 63, 139);
+     font-family: 'Trebuchet MS';
+     
+     text-shadow: 0 0 4px skyblue;
+ }
+ .button{
+     width: 130px;
+     height: 31px;
+     margin-left: 110px;
+     margin-top: 30px; 
+     background-color: transparent;
+     border: 1px solid grey;
+     color: black;
+     outline: none;
+     transition: .6s ease;
+     border-radius: 12px;
+ }
+ .button:hover{
+     cursor: pointer;
+     background-color: grey;
+     color: black;
+     box-shadow: 0 0 5px grey;
+     font-weight: bold;
+ }
+ .home_contact{
+     height: 60px;
+     width: 400px;
+     color: black;
+     margin-left: 450px;
+     margin-top: 20px;
+ }
+ .main .home_contact i{
+     margin: 10px;
+     font-size: 25px;
+     color: black;
+ }
+ .main .home_contact a{
+     text-decoration: none;
+     color: rgb(52, 98, 234);
+ }
+ .main .home_contact a:hover{
+     color: rgb(13, 71, 165);
+     font-weight: bold;
+ }
+ 
+ .About{
+     width: 100%;
+     height: 500px;
+     display: inline-block;
+ }
+ h2{
+     margin-top: 30px;
+     text-align: center;
+     font-size: 40px;
+     
+ }
+ #about img{
+    
+     margin-left: 200px;
+     margin-top: 50px;
+     width: 300px;
+     height: 300px;
+     border-radius: 70%;
+     box-shadow: 0 0 9px rgb(121, 120, 120);
+ }
+ .about_text{
+    
+     margin-top: -240px;
+     margin-left: 500px;
+     
+ }
+ .about_text h4{
+     margin: 10px;
+     margin-left: 100px;
+     margin-top: -38%;
+     font-size: 35px;
+     color: solid white;
+     text-shadow: 1.3px 0 0 grey;
+ }
+ .about_me{
+     width: 700px;
+     margin-left: 300px;
+     margin-top: 90px;
+     background-color: rgb(250, 247, 247);
+     box-shadow: 0 3px 3px grey ;
+     border-radius: 30px;
+     height: 60px;
+ }
+ .hello{
+     color: solid white;
+     font-weight: 500;
+     font-size: 30px;
+     font-family: "Trebuchet MS";
+     margin-left: 100px;
+ }
+ .about_text p{
+     margin-left: 100px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     font-size: 22px;
+     font-family: Trebuchet MS;
+ }
+ .about_text p span{
+     font-size: 25px;
+     color: rgb(67, 67, 147);
+     font-weight: 600;
+     font-family: "Trebuchet MS";
+ }
+ .about_text p span:hover{
+     color: black;
+     cursor: default;
+ }
+ .text{
+     height: 300px;
+     width: 50%;
+     line-height: 32px;
+     margin-left: 100px;
+     font-size: 20px;
+     font-family: "Trebuchet MS";
+ }
+ 
+ 
+ #project{
+     margin-top: 100px;
+     width: 100%;
+     height: 30%;
+     border: 2px black;
+ }
+ 
+ .portfolio_project{
+     width: 100%;
+     height: 460px;
+     display: flex;
+     flex-direction: row;
+     margin-left: 100px;
+ }
+ .Project{
+     width: 700px;
+     height: 55px;
+     border: none;
+     border-radius: 25px;
+     margin-left: 290px;
+     box-shadow: 0 3px 3px grey;
+ }
+ .project h2{
+     margin-top: 40px;
+     font-family: "Trebuchet MS";
+     text-shadow: 0 0 4px grey;
+     margin-bottom: 100px;
+ }
+ .youtube{
+     margin-top: 50px;
+     width: 300px;
+     height: 400px;
+     border: 2px black;
+     background-color: rgb(249, 232, 235);
+     
+     border-radius: 10px;
+ }
+ .youtube img{
+     margin-top: 20px;
+     margin-left: 70px;
+     width: 150px;
+     height: 150px;
+ }
+ .youtube h3{
+     margin-left: 100px;
+     margin-top: 20px;
+     font-family: "Trebuchet MS";
+     font-weight: bolder;
+     font-size: 23px;
+ }
+ .yt_text{
+     width: 250px;
+     height: 50px;
+     margin-top: 10px;
+     margin-left: 40px;
+     font-size: 15px;
+     font-family: "Trebuchet MS";
+     color: rgb(46, 46, 46);
+ }
+ 
+ .ytbutton{
+     height: 40px;
+     width: 150px;
+     background-color: pink;
+     margin-top: 40px;
+     margin-left: 70px;
+     border-radius: 50px;
+     border: none;
+ }
+ .ytbutton:hover{
+     cursor: pointer;
+     background-color: rgb(242, 157, 169);
+     box-shadow: 0 0 5px rgb(245, 112, 135);
+     font-weight: bold;
+ }
+ .ytbutton a{
+     text-decoration: none;
+     color: black;
+     margin: 15px;
+     font-size: 14px;
+     font-weight: 700;
+ }
+ .youtube:hover{
+     cursor: default;
+     box-shadow: 0 3px 20px grey; 
+ }
+ 
+ .linkdin{
+     margin-top: 50px;
+     margin-left: 70px;
+     width: 300px;
+     height: 400px;
+     border: 2px black;
+     background-color: rgb(249, 232, 235);
+     
+     border-radius: 10px;
+ }
+ .linkdin img{
+     margin-top: 20px;
+     margin-left: 70px;
+     width: 150px;
+     height: 150px;
+ }
+ .linkdin h3{
+     margin-left: 100px;
+     margin-top: 20px;
+     font-family: "Trebuchet MS";
+     font-weight: bolder;
+     font-size: 23px;
+ }
+ .Ld_text{
+     width: 250px;
+     height: 50px;
+     margin-top: 10px;
+     margin-left: 40px;
+     font-size: 15px;
+     font-family: "Trebuchet MS";
+     color: rgb(46, 46, 46);
+ }
+ 
+ .Ldbutton{
+     height: 40px;
+     width: 150px;
+     background-color: pink;
+     margin-top: 40px;
+     margin-left: 70px;
+     border-radius: 50px;
+     border: none;
+ }
+ .Ldbutton:hover{
+     cursor: pointer;
+     background-color: rgb(242, 157, 169);
+     box-shadow: 0 0 5px rgb(245, 112, 135);
+     font-weight: bold;
+ }
+ .Ldbutton a{
+     text-decoration: none;
+     color: black;
+     margin: 15px;
+     font-size: 14px;
+     font-weight: 700;
+ }
+ .linkdin:hover{
+     cursor: default;
+     box-shadow: 0 3px 20px grey; 
+ }
+ .google{
+     margin-top: 50px;
+     margin-left: 70px;
+     width: 300px;
+     height: 400px;
+     border: 2px black;
+     background-color: rgb(249, 232, 235);
+     
+     border-radius: 10px;
+ }
+ .google img{
+     margin-top: 20px;
+     margin-left: 70px;
+     width: 150px;
+     height: 150px;
+ }
+ .google h3{
+     margin-left: 100px;
+     margin-top: 20px;
+     font-family: "Trebuchet MS";
+     font-weight: bolder;
+     font-size: 23px;
+ }
+ .G_text{
+     width: 250px;
+     height: 50px;
+     margin-top: 10px;
+     margin-left: 40px;
+     font-size: 15px;
+     font-family: "Trebuchet MS";
+     color: rgb(46, 46, 46);
+ }
+ 
+ .Gbutton{
+     height: 40px;
+     width: 150px;
+     background-color: pink;
+     margin-top: 40px;
+     margin-left: 70px;
+     border-radius: 50px;
+     border: none;
+ }
+ .Gbutton:hover{
+     cursor: pointer;
+     background-color: rgb(242, 157, 169);
+     box-shadow: 0 0 5px rgb(245, 112, 135);
+     font-weight: bold;
+ }
+ .Gbutton a{
+     text-decoration: none;
+     color: black;
+     margin: 15px;
+     font-size: 14px;
+     font-weight: 700;
+ }
+ .google:hover{
+     cursor: default;
+     box-shadow: 0 3px 20px grey; 
+ }
+ 
+ 
+     .contact-container {
+     background-color: white;
+     padding: 20px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     border-radius: 8px;
+ }
+ .contact_me{
+     width: 700px;
+     height: 50px;
+     box-shadow: 0 3px 3px grey;
+     border-radius: 24px;
+     margin-left: 250px;
+ }
+ .contact-form h2{
+     color: #333;
+     margin-top: 60px;
+     margin-bottom: 10px;
+     font-size: 28px;
+     margin-left: 200px; 
+ }
+ .contact-form{
+     margin-top: 20px;
+     margin-left: 300px;
+     margin-right: 350px;
+ }
+ 
+ .contact-form form{
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .contact-form label{
+     margin-bottom: 5px;
+     color: #555;
+ }
+ 
+ .contact-form input{
+     padding: 12px;
+     margin-bottom: 15px;
+     border: 1px solid #ddd;
+     border-radius: 4px;
+     font-size: 16px;
+ }
+ 
+ .contact-form textarea{
+     padding: 12px;
+     margin-bottom: 15px;
+     border: 1px solid #ddd;
+     border-radius: 4px;
+     font-size: 16px;
+ }
+ 
+ .contact-form input:hover{
+     box-shadow: 0 3px 3px;
+ }
+ 
+ .contact-form textarea:hover{
+     box-shadow: 0 3px 3px;
+ }
+ 
+ .contact-form button{
+     padding: 10px 20px;
+     border: none;
+     background-color: rgb(107, 210, 250);
+     color: black;
+     font-size: 16px;
+     border-radius: 4px;
+     cursor: pointer;
+     border-radius: 22px;
+     height: 48px;
+ }
+ 
+ .contact-form button:hover{
+     cursor: pointer;
+     background-color: rgb(4, 178, 198);
+     color: black;
+     box-shadow: 0 0 5px grey;
+     font-weight: bold;
+ }
+ 
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar div {
+        font-size: 24px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .navbar ul li a {
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+
+    #Home img {
+        margin-right: 0;
+        width: 200px;
+        height: 200px;
+    }
+
+    .heading {
+        font-size: 36px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .button {
+        width: 100px;
+        height: 25px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .about_text p {
+        font-size: 18px;
+    }
+
+    .portfolio_project {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .youtube, .linkdin, .google {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .contact-form {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    .navbar div {
+        margin-right: 30%;
+    }
+
+    .navbar ul li a {
+        padding: 6px 20px;
+        font-size: 16px;
+    }
+
+    #Home img {
+        margin-right: 200px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .heading {
+        font-size: 40px;
+        margin-left: 300px;
+    }
+
+    .button {
+        width: 110px;
+        height: 28px;
+    }
+
+    .about_text p {
+        font-size: 20px;
+    }
+
+    .portfolio_project {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .youtube, .linkdin, .google {
+        width: 45%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar div {
+        font-size: 26px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .navbar ul {
+        justify-content: center;
+    }
+
+    .navbar ul li a {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    #Home img {
+        margin-right: 0;
+        width: 250px;
+        height: 250px;
+    }
+
+    .heading {
+        font-size: 42px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .button {
+        width: 120px;
+        height: 30px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .about_text p {
+        font-size: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+    }
+
+    .portfolio_project {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .youtube, .linkdin, .google {
+        width: 80%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .contact-form {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .about_me {
+        margin-left: 50px;
+        width: 90%;
+    }
+}
+
